@@ -1,0 +1,8 @@
+<launch>
+    <node name="gps_driver" pkg="gps_driver" type="driver-code-chatgpt-test2.py" output="screen">
+        <param name="port" value="/dev/ttyUSB0"/> 
+        <param name="baudrate" value="4800"/>
+        <param name="sampling_rate" value="5.0"/>
+    </node>
+</launch>
+
